@@ -26,8 +26,28 @@ url: "http://sankarsubramanian.me" # the base hostname & protocol for your site,
 twitter_username: Sankara69427933
 github_username:  sankarsubramaniankvs
 
+texture:
+  title: Sankar Subramanian
+  tagline: Developer. Designer
+  date_format: "%b %-d, %Y"
+  show_excerpts: true
+  showNav: true
+  navigation:
+    - title: About
+      url: "/about"
+    - title: Home
+      url: ""
+  style: black
+  showPicker: false
+  disqus_shortname: Sankar
+  social_links:
+    twitter: Sankara69427933
+    github:  sankarsubramaniankvs
+    linkedin: sankara-subramanian-venkatesh-0690851b0
+    
+
 # Build settings
-theme: minima
+theme: texture
 plugins:
   - jekyll-feed
 
