@@ -5,7 +5,7 @@ date:   2020-06-14 19:43:55 +0530
 categories: Covid-19
 ---
 
-![image](/assets/images/mask.jpg)
+![image](/blog/assets/images/mask.jpeg)
 
 This article is not about the mid 90’s Hollywood comedy film starring Jim Carey, but certainly has some connection to it.
 
