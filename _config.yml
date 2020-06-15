@@ -21,7 +21,6 @@
 title: Sankar Subramanian
 email: sankarsubramaniankvs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the personal blog of Sankar Subramanian from Kizha Ambur.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://sankarsubramanian.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Sankara69427933
