@@ -79,6 +79,6 @@ So in two lines of code we've imported the data into the program.
 
 If you have any doubts or problems related to programming basics, feel free to reach out. I have my social media links in the site. 
 
-We will be Processing the data in the next article. To receive updates, follow me on social media using links available in the page or subsscribe to our mailing list.. Thank You guys!
+We will be Processing the data in the next article. To receive updates, follow me on social media using links available in the page or subscribe to our mailing list.. Thank You guys!
 
 **Note:** This article and the follow ups are only for absolute beginners in machie learning. I'm going really slow so as to make sure everyone is on the same page. If you are already an intermediate or expert in machine learning, then this is not for you! 
