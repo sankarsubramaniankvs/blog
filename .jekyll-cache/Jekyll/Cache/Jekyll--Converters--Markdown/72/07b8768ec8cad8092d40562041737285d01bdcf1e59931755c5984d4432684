@@ -1,0 +1,64 @@
+I"�<p>Hello friends, today we will start our machine learning journey starting from Data Preprocessing in python.
+Before continuing, please make sure that you have installed the required software in your system as instructed in the previous post.</p>
+
+<h1 id="what-is-data-preprocessing">What is Data Preprocessing?</h1>
+
+<p>A formal definition of Data preprocessing would be “<strong><em>Data Preprocessing is that step in which the data gets transformed, or Encoded, to bring it to such a state that now the machine can easily parse it. In other words, the features of the data can now be easily interpreted by the algorithm</em></strong>”.</p>
+
+<p>The machine can understand <em>Data</em> only when the data is structured. In other words, for example, a table is better understood than a free text. So structuring data in a way that machine can interpret the best possible way is what we are gonna do in preprocessing..</p>
+
+<h3 id="1-download-the-data-to-work-on">1. Download the Data to work on:</h3>
+
+<p><a href="/blog/assets/Data.csv">click here</a> to dowload the dataset that we will work on.
+Credit: The data here for practice is obtained from <em>towardsdatascience.com</em>.</p>
+
+<p>Download the above file and store it in a folder called <strong>Preprocessing</strong>.</p>
+
+<h3 id="2-open-the-spyder-ide">2. Open the Spyder IDE:</h3>
+
+<p><img src="/blog/assets/img/sp1.png" alt="" /></p>
+
+<p>After installing Anaconda, search Spyder in the start menu and open the IDE. Opening spyder may take more time than opening normal applications. So please be patient.</p>
+
+<h3 id="3-setting-the-working-directory">3. Setting the working Directory:</h3>
+
+<p>After opening Spyder, open the Preprocessing folder which contains our Data.csv file in spyder.</p>
+
+<p>To do so, click the folder icon in the top right corner, where it has a option to set the working directory.</p>
+
+<p><img src="/blog/assets/img/sp2.png" alt="" /></p>
+
+<p>After setting the working directory to the folder Preprocessing, wherever it is in your computer, now create a new file called preprocess.py</p>
+
+<p><img src="/blog/assets/img/sp3.png" alt="" /></p>
+
+<h3 id="4-importing-the-data-into-the-program">4. Importing the data into the program:</h3>
+
+<p>To import the data into our program, we are gona use the python library Pandas.</p>
+
+<p>To do that we must first import the library.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import pandas as pd
+</code></pre></div></div>
+
+<p>The above line will import the pandas library and we can call the library using a short keyword pd.</p>
+
+<p>To import the data :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dataset = pd.read_csv("Data.csv")
+</code></pre></div></div>
+
+<p>After typing the two lines, run the program in spyder.</p>
+
+<p>The shortcut to run a file id <strong>F5</strong> or to run a single line is <strong>ctrl+Enter</strong></p>
+
+<p>Now press <strong>F5</strong> to run the file, the in the top right pane under where we set the working directory, you can see four options, <em>“Variable explorer, Help, Plots, Files”</em>, select the variable explorer option.</p>
+
+<p><img src="/blog//assets/img/sp4.png" alt="" /></p>
+
+<p>Here we can see our dataset variable here.</p>
+
+<p>Double click on the <strong>dataset</strong> in this pane and you can see the data as below.</p>
+
+<p><img src="/blog/assets/img/sp5.png" alt="" /></p>
+:ET
