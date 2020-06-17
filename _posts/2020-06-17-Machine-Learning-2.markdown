@@ -65,7 +65,7 @@ The shortcut to run a file is **F5**.
 
 The shortcut to run a single line of code or selected lines is **ctrl+Enter**.
 
-Now press **F5** to run the file, the in the top right pane under where we set the working directory, you can see four options, *"Variable explorer, Help, Plots, Files"*, select the variable explorer option.
+Now press **F5** to run the file, then in the top right pane under where we set the working directory, you can see four options, *"Variable explorer, Help, Plots, Files"*, select the variable explorer option.
 
 ![]({{site.baseurl}}//assets/img/sp4.png)
 
@@ -79,6 +79,6 @@ So in two lines of code we've imported the data into the program.
 
 If you have any doubts or problems related to programming basics, feel free to reach out. I have my social media links in the site. 
 
-We will be Processing the data in the next article. To receive updates, follow me on social media using links available in the top of the page or subsscribe to our mailing list at the end of the page.. Thank You guys!
+We will be Processing the data in the next article. To receive updates, follow me on social media using links available in the page or subsscribe to our mailing list.. Thank You guys!
 
 **Note:** This article and the follow ups are only for absolute beginners in machie learning. I'm going really slow so as to make sure everyone is on the same page. If you are already an intermediate or expert in machine learning, then this is not for you! 

@@ -30,5 +30,5 @@ Before continuing, make sure you uninstall any versions of python before continu
 **Note:** This article and the follow ups are only for absolute beginners in machie learning. I'm going really slow so as to make sure everyone is on the same page. If you are already an intermediate or expert in machine learning, then this is not for you! 
 
 
-We will start machine learning from the next article. To receive updates, follow me on social media using links available in the top of the page or subsscribe to our mailing list below.
+We will start machine learning from the next article. To receive updates, follow me on social media using links available in the page or subsscribe to our mailing list.
 

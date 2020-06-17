@@ -1,4 +1,4 @@
-I"<p>Hello friends, today we will start our machine learning journey starting from Data Preprocessing in python.
+I"&<p>Hello friends, today we will start our machine learning journey starting from Data Preprocessing in python.
 Before continuing, please make sure that you have installed the required software in your system as instructed in the <a href="/blog/Machine-Learning-1">previous post.</a></p>
 
 <h1 id="what-is-data-preprocessing">What is Data Preprocessing?</h1>
@@ -52,9 +52,11 @@ Credit: The data here for practice is obtained from <em>towardsdatascience.com</
 
 <p>After typing the two lines, run the program in spyder.</p>
 
-<p>The shortcut to run a file id <strong>F5</strong> or to run a single line is <strong>ctrl+Enter</strong></p>
+<p>The shortcut to run a file is <strong>F5</strong>.</p>
 
-<p>Now press <strong>F5</strong> to run the file, the in the top right pane under where we set the working directory, you can see four options, <em>“Variable explorer, Help, Plots, Files”</em>, select the variable explorer option.</p>
+<p>The shortcut to run a single line of code or selected lines is <strong>ctrl+Enter</strong>.</p>
+
+<p>Now press <strong>F5</strong> to run the file, then in the top right pane under where we set the working directory, you can see four options, <em>“Variable explorer, Help, Plots, Files”</em>, select the variable explorer option.</p>
 
 <p><img src="/blog//assets/img/sp4.png" alt="" /></p>
 
@@ -68,5 +70,7 @@ Credit: The data here for practice is obtained from <em>towardsdatascience.com</
 
 <p>If you have any doubts or problems related to programming basics, feel free to reach out. I have my social media links in the site.</p>
 
-<p>We will be Processing the data in the next article. To receive updates, follow me on social media using links available in the top of the page or subsscribe to our mailing list at the end of the page.. Thank You guys!</p>
+<p>We will be Processing the data in the next article. To receive updates, follow me on social media using links available in the page or subsscribe to our mailing list.. Thank You guys!</p>
+
+<p><strong>Note:</strong> This article and the follow ups are only for absolute beginners in machie learning. I’m going really slow so as to make sure everyone is on the same page. If you are already an intermediate or expert in machine learning, then this is not for you!</p>
 :ET
