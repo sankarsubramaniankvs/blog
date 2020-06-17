@@ -61,7 +61,9 @@ To import the data :
 
 After typing the two lines, run the program in spyder.
 
-The shortcut to run a file id **F5** or to run a single line is **ctrl+Enter**
+The shortcut to run a file is **F5**.
+
+The shortcut to run a single line of code or selected lines is **ctrl+Enter**.
 
 Now press **F5** to run the file, the in the top right pane under where we set the working directory, you can see four options, *"Variable explorer, Help, Plots, Files"*, select the variable explorer option.
 
