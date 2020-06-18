@@ -1,0 +1,70 @@
+I"�<p>After <a href="/blog/Machine-Learning-2">importing the dataset</a> into the program, we can start to preprocess the data. The steps to preprocess the data are as follows:</p>
+
+<hr />
+
+<h3 id="1splitting-the-data-into-dependent-and-independent-variables">1.Splitting the data into dependent and independent variables:</h3>
+<hr />
+
+<p><img src="/blog/assets/img/sp5.png" alt="" /></p>
+
+<p>In our example data, the independent variables are <strong>Country, Age and Salary</strong> and the dependent variable would be <strong>Purchased</strong></p>
+
+<p>To understand this, think of it as, we are going to provide you with country, age and salary and you’ll have to predict whether the person will purchase the product or not.</p>
+
+<p>To put it simply, the value which you are going to predict would be dependent, and the remaining will be independent in most case.</p>
+
+<p>Now we have to split the columns <strong>Country, Age and Salary</strong> as dependent and <strong>Purchased</strong> as independent.</p>
+
+<p>Let the independent variable be x and the dependent variable be y.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#splitting the data:
+x=dataset.iloc[:,:-1].values
+y=dataset.iloc[:,3].values
+</code></pre></div></div>
+
+<p><strong>iloc</strong> is a function of pandas which is used to split a dataset.</p>
+
+<p>The second line in the above code in which we define the variale x, we have the called the iloc function from <strong>:</strong> meaning from first, then <strong>,</strong> which means all rows and <strong>3</strong> which means upto 3rd row(not including). Here the array index starts from 0. So Country-0, Age-1, Salary-2, Purchased-3 are the corresponding indices.</p>
+
+<p>In the last line of the code, we are including all rows but only 3rd column.</p>
+
+<p>The entire code would be as follows</p>
+
+<p><img src="/blog/assets/img/sp6.png" alt="" /></p>
+
+<p>To save press <strong>ctrl+s</strong></p>
+
+<p>After Saving, press <strong>F5</strong> to run the program.</p>
+
+<p>Now click on the variable explorer in the top right pane. You can find the two new variables x and y. Double click them to see that the dataset is split accordingly.</p>
+
+<p><img src="/blog/assets/img/sp7.png" alt="" /></p>
+
+<hr />
+
+<h3 id="2taking-care-of-missing-data">2.Taking care of Missing Data:</h3>
+
+<p>In a Dataset there can be some missing data. We can take care of missing data in many ways. If it is a numerical value, we can take mean of the column. This is one of the best ways to handle missing data. We can also remove the row with missing data, but it will mostly affect our prediction accuracy. There are certain cases where we have no option but to remove the row. But for now we’ll fill the missing data with mean of the column.</p>
+
+<p>To take care of missing data, there is a class called Imputer in sklearn library.</p>
+
+<p>First, let us import the library.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from sklearn.preprocessing import Imputer
+imputer = Imputer(missing_values = 'NaN', strategy = 'mean', axis = 0)
+imputer = imputer.fit(x[:, 1:3])
+x[:, 1:3] = imputer.transform(x[:, 1:3])
+</code></pre></div></div>
+
+<p>The numerical columns we have are Age and Salary</p>
+
+<p>The two columns are in variable x at indexes 1 and 2.</p>
+
+<p>After importing the Imputer class, we have created an object imputer at line 2 with mean strategy. In this line axis=0 means column.</p>
+
+<p>In the third line, we have fith the object according to our data.</p>
+
+<p>Finally, we transform our independent variable x.</p>
+
+<p>Now save and run the file, go to variable explorer and open the variable x.</p>
+:ET

@@ -47,7 +47,7 @@ After setting the working directory to the folder Preprocessing, wherever it is 
 
 ### 4. Importing the data into the program:
 
-To import the data into our program, we are gona use the python library Pandas.
+To import the data into our program, we are gonna use the python library Pandas.
 
 To do that we must first import the library.
 

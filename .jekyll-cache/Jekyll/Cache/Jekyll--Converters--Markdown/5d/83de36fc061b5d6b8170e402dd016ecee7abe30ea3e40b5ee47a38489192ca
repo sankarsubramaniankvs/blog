@@ -1,0 +1,12 @@
+I"'<p>After <a href="/blog/Machine-Learning-2">importing the dataset</a> into the program, we can start to preprocess the data.</p>
+
+<h3 id="1splitting-the-data-into-dependent-and-independent-variables">1.Splitting the data into dependent and independent variables:</h3>
+
+<p><img src="/blog/assets/img/sp5.png" alt="" /></p>
+
+<p>In our example data, the independent variables are <strong>Country, Age and Salary</strong> and the dependent variable would be <strong>Purchased</strong></p>
+
+<p>To understand this, think of it as, we are going to provide you with country, age and salary and you’ll have to predict whether the person will purchase the product or not.</p>
+
+<p>To put it simply, the value which you are going to predict would be dependent, and the remaining will be independent in most case.</p>
+:ET
